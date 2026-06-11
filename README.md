@@ -1,18 +1,108 @@
-# React + Vite
+🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Weather Application built using React.js, Vite, Material UI, and the OpenWeatherMap API.
 
-Currently, two official plugins are available:
+The application allows users to search for any city and view real-time weather information including temperature, humidity, minimum and maximum temperature, weather conditions, and feels-like temperature.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/Qvite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Features
+Search weather by city name
+Real-time weather data using OpenWeatherMap API
+Displays:
+Current Temperature
+Feels Like Temperature
+Humidity
+Minimum Temperature
+Maximum Temperature
+Weather Description
+Dynamic weather images based on weather conditions
+Error handling for invalid city names
+Responsive UI using Material UI components
+Environment variables support using .env
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Tech Stack
+Frontend
+React.js
+Vite
+Material UI
+API
+OpenWeatherMap API
+Styling
+CSS3
+Material UI
+Version Control
+Git
+GitHub
+📂 Project Structure
+weather-app/
+│
+├── src/
+│   ├── SearchBox.jsx
+│   ├── InfoBox.jsx
+│   ├── WeatherApp.jsx
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── public/
+├── .env
+├── package.json
+├── vite.config.js
+└── README.md
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# weather-app
-this is mini project based on react.js and material UI
+⚙️ Installation
+Clone the repository
+git clone https://github.com/adityaghadge-ai/weather-app.git
+Navigate to the project folder
+cd weather-app
+Install dependencies
+npm install
+Create Environment Variables
+
+Create a .env file in the root directory:
+
+VITE_WEATHER_API_KEY=YOUR_API_KEY
+Start the development server
+npm run dev
+
+The application will run on:
+
+http://localhost:5173
+🌐 API Used
+
+OpenWeatherMap Current Weather API
+
+Data fetched includes:
+
+Temperature
+Humidity
+Weather Description
+Feels Like Temperature
+Min/Max Temperature
+
+
+📸 Screenshots
+ Screenshots are placed in Screenhots folder
+
+
+
+ 🎯 Future Improvements
+5-Day Weather Forecast
+Current Location Weather
+Dark Mode
+Wind Speed Information
+Sunrise and Sunset Timings
+Air Quality Index (AQI)
+Weather Icons
+Search History
+Loading Spinner
+
+👨‍💻 Author
+
+Aditya Ghadge
+
+GitHub: https://github.com/adityaghadge-ai
+
+⭐ If you like this project
+
+Give it a star on GitHub and feel free to contribute.
